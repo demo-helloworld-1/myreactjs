@@ -9,3 +9,12 @@ var Person = HelloWorld;
 Person.favFood="Salad";
 console.log(HelloWorld.favFood);
 
+
+// Difference between == and ===
+
+console.log(19=="19"); //true
+console.log(19==="19");//false
+
+
+
+// == compairs only the Data but == compairs the data along with the Datatype
