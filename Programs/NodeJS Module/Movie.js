@@ -1,11 +1,18 @@
-function printAvathar(){
-    console.log("Avatar: PG-13");
-}
+module.exports = {
+    printAvathar: function(){
+        console.log("Avatar: PG-13");
+    },
+    
+    printChappie: function(){
+        console.log("Chappie: R");
+    },
 
-function printChappie(){
-    console.log("Chappie: R")
-}
+    favMovie: "Interstellar"
+};
 
 
-module.exports.avatar = printAvathar;
-module.exports.chappie = printChappie;
+
+
+
+// module.exports.avatar = printAvathar;
+// module.exports.chappie = printChappie;

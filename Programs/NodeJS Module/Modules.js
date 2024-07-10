@@ -8,5 +8,6 @@ with import and export keywords.
 
 var movies = require('./Movie');
 
-movies.avatar();
-movies.chappie();
+movies.printAvathar();
+movies.printChappie();
+console.log(movies.favMovie);
